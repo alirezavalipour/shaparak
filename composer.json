@@ -1,0 +1,17 @@
+{
+    "name": "alirezavalipour/shaparak",
+    "description": "this package use for Shaparak api, payment aggregator should use this package to talking with Shaparak webservice",
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shaparak\\ShaparakServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Shaparak\\": "src/"
+        }
+    }
+}
