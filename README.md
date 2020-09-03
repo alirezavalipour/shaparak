@@ -2,15 +2,15 @@
 this package use for Shaparak api's,
 payment aggregator should use this package to talking with Shaparak webservice
 
-####install
+#### install
 ```bash
 composer require alirezavalipour/shaparak
 ```
-#####publish config file 
+##### publish config file 
 ```bash
 php artisan vendor:publish 
 ```
-#####migration
+#### migration
 ```bash
 php artisan migrate
 ```
